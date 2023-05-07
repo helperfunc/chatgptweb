@@ -1,0 +1,11 @@
+/** @type {import('next').NextConfig} */
+module.exports = {
+  reactStrictMode: true,
+  images: {
+    domains: ['i.ibb.co']
+  },
+  experimental: {
+    appDir: true,
+  },
+  // distDir: '_next'
+}
